@@ -1,0 +1,31 @@
+{
+  "mail": "andreea.gmail.com",
+  "password": "caca",
+  "username": "caca username",
+  "items": [
+    {
+      "id": 1,
+      "denumire": "oriceeeee",
+      "status": "disponibil",
+      "descriere": "coaemiu ceva",
+      "imagine": "https://shop-cdn-m.mediazs.com/bilder/smilla/lapte/pentru/pisici/8/400/82961_pla_smilla_katzenmilch_6x250ml_8.jpg",
+      "locatie": "orice locatie"
+    },
+    {
+      "id": 2,
+      "denumire": "oriceeeee",
+      "status": "owned",
+      "descriere": "coaemiu ceva",
+      "imagine": "https://shop-cdn-m.mediazs.com/bilder/smilla/lapte/pentru/pisici/8/400/82961_pla_smilla_katzenmilch_6x250ml_8.jpg",
+      "locatie": "orice locatie"
+    },
+    {
+      "id": 3,
+      "denumire": "oriceeeee",
+      "status": "disponibil",
+      "descriere": "coaemiu ceva",
+      "imagine": "https://shop-cdn-m.mediazs.com/bilder/smilla/lapte/pentru/pisici/8/400/82961_pla_smilla_katzenmilch_6x250ml_8.jpg",
+      "locatie": "orice locatie"
+    }
+  ]
+}

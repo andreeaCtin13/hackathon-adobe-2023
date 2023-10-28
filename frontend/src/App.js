@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { UserContext } from "./context/UserContext";
+import { useState } from "react";
+import LandingPage from "./pages/LandingPage";
+import CustomSidebar from "./components/CustomSidebar";
+import ItemsExporer from "./pages/ItemsExporer";
+import ItemPage from "./pages/ItemPage";
+import { ItemsContext } from "./context/ItemsContext";
 
 function App() {
+  const [user, setUser] = useState(false);
+  const [items, setItems] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserContext.Provider value={{ user, setUser }}>
+      <ItemsContext.Provider value={{ items, setItems }}>
+        <BrowserRouter>
+          {user ? <CustomSidebar /> : <div></div>}
+          <Routes>
+            <Route path="/" element={<LandingPage></LandingPage>}></Route>
+            <Route path="/items" element={<ItemsExporer />}></Route>
+            <Route path="/items/:idItem" element={<ItemPage />}></Route>
+          </Routes>
+        </BrowserRouter>
+      </ItemsContext.Provider>
+    </UserContext.Provider>
   );
 }
 

@@ -1,0 +1,9 @@
+.mainContainer {
+  margin: 4rem 7rem;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2rem 0;
+}
