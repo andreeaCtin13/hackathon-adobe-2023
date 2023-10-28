@@ -1,14 +1,13 @@
 // aici se adauga ruta de reset si alte chestii care sunt prea mici sa aiba propriile lor controllere
 
 const connection = require("../models").connection;
-console.log('a ajuns aici1');
 
 const controller = {
   resetDb: (req, res) => {
-
     //pe req vine info de la user la baza de date
     //pe res pleaca informatia inapoi la user
-    console.log('a ajuns aici2');
+
+    console.log("a ajuns aici2");
     //metoda asta sincronizeaza bd cu modelel deja formate si metoda are mai multe optiuni
     connection
       .sync({

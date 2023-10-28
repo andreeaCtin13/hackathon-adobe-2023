@@ -10,7 +10,6 @@ const sequelize = new Sequelize("bd_hackathon", "root", "", {
     //aici putem da optiuni bazei de date in sine
     timestamps: true,
   },
-  port: 7777
 });
 //asta e o instanta a clasei
 
