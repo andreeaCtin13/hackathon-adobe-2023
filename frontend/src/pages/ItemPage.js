@@ -21,23 +21,42 @@ function ItemPage() {
     setTradeModal(true);
   };
 
+  const [itemsSet, setItemsSet] = useState([]);
+
+  const updateSet = (itemID, check) => {
+    if (check) {
+      // Add the item to itemsSet
+      setItemsSet([...itemsSet, itemID]);
+    } else {
+      // Remove the item from itemsSet
+      setItemsSet(itemsSet.filter((id) => id !== itemID));
+    }
+  };
+
+  console.log(itemsSet);
+
   return (
-    <div className={style.mainConatiner}>
+    <div className={style.mainContainer}>
       <div>
         <h1>{item.denumire}</h1>
         <img src={item.imagine} alt={item.denumire} />
       </div>
       <div>
-        <div>LOCATION:{item.locatie}</div>
+        <div>
+          <strong>LOCATION: </strong>
+          {item.locatie}
+        </div>
         <div>{item.descriere}</div>
+        <button onClick={handleTrade} className={style.btn}>
+          Trade
+        </button>
       </div>
-      <button onClick={handleTrade}>Trade</button>
 
       <Dialog visible={tradeModal} onHide={() => setTradeModal(false)}>
         <h1>Choose the items you want to trade</h1>
         {user.items.map((i) => {
           if (i.status === "disponibil") {
-            return <Card item={i}></Card>;
+            return <Card item={i} modifySet={updateSet} key={i.id}></Card>;
           }
         })}
         <div>
