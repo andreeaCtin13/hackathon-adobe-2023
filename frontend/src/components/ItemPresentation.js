@@ -14,8 +14,8 @@ function ItemPresentation({ item }) {
 
   return (
     <div className={style.containerCard}>
-      <Link to={`/items/${item.id}`}>
-        <img src={item.imagine} alt="imagine_item" />
+      <Link to={`/items/${item.id}`} className={style.link}>
+        <img src={item.imagine} alt="imagine_item" width="400" height="400" />
         <h2>{item.denumire}</h2>
         <div>{ret()}</div>
       </Link>

@@ -17,6 +17,6 @@ function LandingPage() {
     );
   };
 
-  return <div className={style.mainContainer}>{render()}</div>;
+  return <>{render()}</>;
 }
 export default LandingPage;

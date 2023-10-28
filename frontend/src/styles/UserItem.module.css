@@ -1,0 +1,17 @@
+.mainContainer {
+  margin: 4rem 8rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1fr, 4);
+}
+
+select {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 3rem;
+  padding: 0.3rem;
+  font-size: 1.4rem;
+  border: 2px solid var(--var--dark-pink);
+}

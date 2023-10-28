@@ -22,6 +22,16 @@ const controller = {
         res.status(500).send({ message: "EROARE LA ADAUGAREA TRADE-ULUI" });
       });
   },
+  getAllTrades: (req, res) => {
+    return tradesDB
+      .findAll()
+      .then((trades) => {
+        res.status(200).send(trades.map((trade) => trade.get()));
+      })
+      .catch(() => {
+        return "eroare!";
+      });
+  },
 };
 
 module.exports = controller;

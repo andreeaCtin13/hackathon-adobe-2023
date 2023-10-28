@@ -1,42 +1,202 @@
 [
   {
     "id": 1,
-    "denumire": "oriceeeee",
+    "denumire": "Telefon Samsung",
     "status": "disponibil",
-    "descriere": "Lorem i labore et dolore magna aliqua. Enimn sagittis nisl rhoncus mattis rhoncus. Libero nunc consequat interdum varius sit. Scelerisque purus semper eget duis at tellus at.",
-    "imagine": "https://th.bing.com/th/id/R.87d58317cef555f5608a343d7c225c78?rik=%2fzG1NRv80onhNA&riu=http%3a%2f%2fwww.gravura-chei.ro%2f373-large_default%2fchei-plane.jpg&ehk=CWS95ugcdRwwQvl%2bo2kvDS78a15277owiXKT0As1zuo%3d&risl=&pid=ImgRaw&r=0",
-    "locatie": "orice locatie"
+    "descriere": "Telefon Samsung vechi, nu bate nu troncane",
+    "imagine": "https://s13emagst.akamaized.net/products/769/768871/images/res_9a040eb74d014029e246a8eb3f7b45f1.jpg",
+    "locatie": "Bucuresti"
   },
   {
     "id": 2,
-    "denumire": "oriceeeee",
+    "denumire": "Ghiozdan Hello Kitty",
     "status": "disponibil",
-    "descriere": "coaemiu ceva",
-    "imagine": "https://th.bing.com/th/id/R.87d58317cef555f5608a343d7c225c78?rik=%2fzG1NRv80onhNA&riu=http%3a%2f%2fwww.gravura-chei.ro%2f373-large_default%2fchei-plane.jpg&ehk=CWS95ugcdRwwQvl%2bo2kvDS78a15277owiXKT0As1zuo%3d&risl=&pid=ImgRaw&r=0",
-    "locatie": "orice locatie"
+    "descriere": "Hello Kitty ghiozdan original",
+    "imagine": "https://th.bing.com/th/id/OIP.vXtmRrG-yuh72wtpUGrB3wHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "locatie": "Craiova"
   },
   {
     "id": 3,
-    "denumire": "oriceeeee",
+    "denumire": "Masina de spalat",
     "status": "disponibil",
-    "descriere": "coaemiu ceva",
-    "imagine": "https://th.bing.com/th/id/R.87d58317cef555f5608a343d7c225c78?rik=%2fzG1NRv80onhNA&riu=http%3a%2f%2fwww.gravura-chei.ro%2f373-large_default%2fchei-plane.jpg&ehk=CWS95ugcdRwwQvl%2bo2kvDS78a15277owiXKT0As1zuo%3d&risl=&pid=ImgRaw&r=0",
-    "locatie": "orice locatie"
+    "descriere": "Maasina de spalat samsung, vechime 2 ani, stare foarte buna",
+    "imagine": "https://th.bing.com/th/id/R.0a86344677f63a1f648b850f29106b23?rik=zdkxjm4cepLT6A&riu=http%3a%2f%2fcasepractice.ro%2fwp-content%2fuploads%2f2016%2f07%2femag-masini-de-spalat-rufe-5.jpg&ehk=5HNOkjjF2Y0AmhP8nDohIWn9HhL370Gmt%2fnMlol6eSY%3d&risl=&pid=ImgRaw&r=0",
+    "locatie": "Bucuresti"
   },
   {
     "id": 4,
-    "denumire": "oriceeeee",
+    "denumire": "Casti",
     "status": "disponibil",
-    "descriere": "coaemiu ceva",
-    "imagine": "https://th.bing.com/th/id/R.87d58317cef555f5608a343d7c225c78?rik=%2fzG1NRv80onhNA&riu=http%3a%2f%2fwww.gravura-chei.ro%2f373-large_default%2fchei-plane.jpg&ehk=CWS95ugcdRwwQvl%2bo2kvDS78a15277owiXKT0As1zuo%3d&risl=&pid=ImgRaw&r=0",
-    "locatie": "orice locatie"
+    "descriere": "Casti usor uzate",
+    "imagine": "https://th.bing.com/th/id/OIP.rtP0QDpahk7zPQI0cjKc0QHaHa?pid=ImgDet&rs=1",
+    "locatie": "Craiova"
   },
   {
     "id": 5,
-    "denumire": "oriceeeee",
+    "denumire": "Aspirator",
+    "status": "locked",
+    "descriere": "Aspirator Karcher, vechime 3 ani",
+    "imagine": "https://cdn.dedeman.ro/media/catalog/product/1/0/1034200_1.jpg",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 9,
+    "denumire": "Tablou",
+    "status": "locked",
+    "descriere": "Tablou de decor",
+    "imagine": "https://i.pinimg.com/736x/dc/dc/6f/dcdc6f49d2b88a97d5566f2bb6620799.jpg",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 6,
+    "denumire": "Portofel",
+    "status": "locked",
+    "descriere": "Portofel piele",
+    "imagine": "https://th.bing.com/th/id/OIP.agyPh3yByH-8zf6j1ErO_wHaHa?w=196&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "locatie": "Craiova"
+  },
+  {
+    "id": 7,
+    "denumire": "Sosete pikachu",
+    "status": "owned",
+    "descriere": "Sosete pikachu direct din Japonia",
+    "imagine": "https://th.bing.com/th/id/OIP.MeQBwHD_P85mVuemq1oTXQHaHa?pid=ImgDet&rs=1",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 8,
+    "denumire": "Pahar Coca-Cola",
+    "status": "owned",
+    "descriere": "Pahar colectie Coca-Cola",
+    "imagine": "https://th.bing.com/th/id/OIP.KXehyj01FT8EyMOE6jhc8QHaGO?w=228&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 10,
+    "denumire": "Lampa Winnie the Pooh",
+    "status": "locked",
+    "descriere": "Lampa Winnie the Pooh",
+    "imagine": "https://th.bing.com/th/id/OIP.XO-3biMwQ633xbNe84-LqQHaGS?pid=ImgDet&rs=1",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 11,
+    "denumire": "Parfum Ariana Grande Cloud",
     "status": "disponibil",
-    "descriere": "coaemiu ceva",
-    "imagine": "https://th.bing.com/th/id/R.87d58317cef555f5608a343d7c225c78?rik=%2fzG1NRv80onhNA&riu=http%3a%2f%2fwww.gravura-chei.ro%2f373-large_default%2fchei-plane.jpg&ehk=CWS95ugcdRwwQvl%2bo2kvDS78a15277owiXKT0As1zuo%3d&risl=&pid=ImgRaw&r=0",
-    "locatie": "orice locatie"
+    "descriere": "Parfum Ariana Grande Cloud, sigilat",
+    "imagine": "https://th.bing.com/th/id/OIP.I4hQQmr_qwbzTw-hpad5CwHaHa?w=189&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 12,
+    "denumire": "Cercei",
+    "status": "disponibil",
+    "descriere": "cercei argint",
+    "imagine": "https://th.bing.com/th/id/OIP.Kkru4T5hMHOXdUrQspo-jgHaHa?w=201&h=201&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "locatie": "Craiova"
+  },
+  {
+    "id": 13,
+    "denumire": "Scaun gaming",
+    "status": "disponibil",
+    "descriere": "Scaun ergonomic pentru seri intense de gaming",
+    "imagine": "https://it2go.ro/image/cache/catalog/scaune-gaming/nitro-210-green-1-1000x1000.jpg",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 14,
+    "denumire": "Ochelari de soare",
+    "status": "locked",
+    "descriere": "OCHELARI DE SOARE CALITATE FOARTE BUNA!!",
+    "imagine": "https://scrie-cu-stiloul.ro/wp-content/uploads/2018/12/ochelari-de-soare-1-2048x1029.jpg",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 15,
+    "denumire": "Stilou Parker",
+    "status": "disponibil",
+    "descriere": "Stilou Parker, nefolosit",
+    "imagine": "https://th.bing.com/th/id/R.983bd5dbaf1be5686e9ccddb1d7ebafc?rik=FhpY7yQTDgRu5A&pid=ImgRaw&r=0",
+    "locatie": "Craiova"
+  },
+  {
+    "id": 16,
+    "denumire": "Canapea",
+    "status": "locked",
+    "descriere": "Canapea usor uzata, vechime 2.5 ani",
+    "imagine": "https://th.bing.com/th/id/OIP.kebhyp_FFoJ6FiRj3-_3uQHaHa?pid=ImgDet&rs=1",
+    "locatie": "Craiova"
+  },
+  {
+    "id": 17,
+    "denumire": "Crop Top",
+    "status": "owned",
+    "descriere": "Crop Top negru, marimea s",
+    "imagine": "https://cdnd.lystit.com/photos/2012/04/28/topshop-black-crop-tee-product-1-3385375-395138648.jpeg",
+    "locatie": "Ploiesti"
+  },
+  {
+    "id": 18,
+    "denumire": "Luminite de craciun",
+    "status": "disponibil",
+    "descriere": "Luminite de craciun in forma de turture",
+    "imagine": "https://www.vidaxl.ro/dw/image/v2/BFNS_PRD/on/demandware.static/-/Sites-vidaxl-catalog-master-sku/default/dwf89ddec6/hi-res/536/696/596/5990/356227/image_3_356227.jpg?sw=400",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 19,
+    "denumire": "Geaca",
+    "status": "owned",
+    "descriere": "geaca de iarna",
+    "imagine": "https://hainutetrendy.ro/wp-content/uploads/2020/11/geaca-copii-fas-1640x2048.jpg",
+    "locatie": "Craiova"
+  },
+  {
+    "id": 20,
+    "denumire": "Lumanari",
+    "status": "disponibil",
+    "descriere": "Set lumanari parfumate",
+    "imagine": "https://th.bing.com/th/id/R.6f3fa9fa83286a6b5d62b86cb0e0736b?rik=MUKGhz9NPiv40g&pid=ImgRaw&r=0",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 20,
+    "denumire": "Lumanari",
+    "status": "disponibil",
+    "descriere": "Set lumanari parfumate",
+    "imagine": "https://static.quickmobile.ro/cs-photos/products/original/boxa-portabila-flip-5-albastru_10060706_2_1566917204.jpg",
+    "locatie": "Craiova"
+  },
+  {
+    "id": 21,
+    "denumire": "Inel din aur",
+    "status": "owned",
+    "descriere": "Inel din aur detinut de bunica mea in timpul primului razboi mondial",
+    "imagine": "https://divagold.ro/wp-content/uploads/2019/06/64445928_438080216924629_6231995386127450112_n.jpg",
+    "locatie": "Craiova"
+  },
+  {
+    "id": 22,
+    "denumire": "Ceas de perete",
+    "status": "disponibil",
+    "descriere": "Ceas de perete negru",
+    "imagine": "https://madira.ro/image/cache/ianuarie%202018/februarie-martie%202018/Ceas%20de%20perete%20negru%20cu%20detalii%20aurii_01-1000x1000.jpg",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 23,
+    "denumire": "Cauciucuri de iarna",
+    "status": "owned",
+    "descriere": "Cauciucuri Michelin",
+    "imagine": "https://greatnews.ro/wp-content/uploads/2015/10/cauciucuri-de-iarna.jpg",
+    "locatie": "Bucuresti"
+  },
+  {
+    "id": 24,
+    "denumire": "Hanorac",
+    "status": "disponibil",
+    "descriere": "Hanorac taur",
+    "imagine": "https://th.bing.com/th/id/OIP.Mm9FAft5xBbnmqgF80bdMAHaHa?pid=ImgDet&rs=1",
+    "locatie": "Craiova"
   }
 ]

@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 import style from "../styles/LandingPage.module.css";
 
 function LoginForm({ hasAccount, setHasAccount }) {
-  const { user, setUser } = useContext(UserContext);
-  useEffect(() => {
-    setUser(currentUser);
-  }, []);
+  // const { user, setUser } = useContext(UserContext);
+  // useEffect(() => {
+  //   setUser(currentUser);
+  // }, []);
 
-  const login = (event) => {
-    // aici se face call catre back ca sa putem sa vedem daca ce introduce user-ul e corect, daca da, setam user-ul
-    setUser(currentUser);
-  };
+  // const login = (event) => {
+  //   // aici se face call catre back ca sa putem sa vedem daca ce introduce user-ul e corect, daca da, setam user-ul
+  //   setUser(currentUser);
+  // };
   return (
     <div className={style.form}>
       <form action="">
@@ -40,14 +40,7 @@ function LoginForm({ hasAccount, setHasAccount }) {
             <button className={style.button}>Create Account</button>
           </Link>
           <Link to="/items">
-            <button
-              className={style.button}
-              onClick={(e) => {
-                login(e);
-              }}
-            >
-              Login
-            </button>
+            <button className={style.button}>Login</button>
           </Link>
         </div>
       </form>

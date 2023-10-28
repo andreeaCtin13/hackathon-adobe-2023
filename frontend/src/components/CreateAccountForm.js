@@ -1,8 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import currentUser from "../data/user.json";
 import { Link } from "react-router-dom";
 import style from "../styles/LandingPage.module.css";
+import { UserContext } from "../context/UserContext";
 function CreateAccountForm({ hasAccount, setHasAccount }) {
   const [data, setData] = useState({});
+  const { user, setUser } = useContext(UserContext);
+
+  useEffect(() => {
+    setUser(currentUser);
+  }, []);
   const create = () => {
     //aici se trimite spre back data ul spre a fi inserat in baza de date
   };

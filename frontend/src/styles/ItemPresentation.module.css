@@ -1,2 +1,18 @@
 .containerCard {
+  border: 1px solid var(--var--dark-pink);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.img {
+  width: 20rem;
+  height: 50rem;
+}
+
+.link {
+  text-decoration: none;
 }

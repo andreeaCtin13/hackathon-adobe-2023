@@ -9,4 +9,24 @@
   border-radius: 2rem;
   height: 3rem;
   width: 10rem;
+  border: 2px solid var(--var--dark-pink);
+}
+
+.img {
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.zonaButoane {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
 }
