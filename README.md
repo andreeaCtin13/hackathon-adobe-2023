@@ -1,0 +1,4 @@
+OK, SO AM INSTALAT DEJA, DOAR FACETI NPM I SA VA LUATI CE E NECESAR:
+
+FRONTEND: axios
+BACKEND: express sequelize cors mysql2 nodemon
